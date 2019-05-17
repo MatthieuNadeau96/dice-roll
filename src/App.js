@@ -5,7 +5,8 @@ import Die from './Die';
 function App() {
   return (
     <div className="App">
-      <Die/>
+      <Die face="five"/>
+      <Die face="two"/>
     </div>
   );
 }
